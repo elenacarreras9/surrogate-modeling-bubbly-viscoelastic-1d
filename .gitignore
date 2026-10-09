@@ -1,0 +1,29 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Generated locally: trained model and evaluation outputs (regenerate with ml/src/train.py)
+ml/checkpoints/
+
+# MATLAB: editor autosave and backup copies, compiled MEX files
+*.asv
+*.m~
+*.mex*
+slprj/
+
+# System / editor
+.vscode/
+.DS_Store
+
+# Files kept only locally (not part of the published code)
+matlab/reference/
+matlab/velo.m
+matlab/simulate_1d_harmonics.m
+matlab/validation/
+matlab/diag_vV0.m
